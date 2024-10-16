@@ -1,0 +1,339 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Oswald:wght@200..700&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
+
+:root{
+    --navy:#0F2167;
+    --main-color:#3559E0;
+    --semi-color:#4CB9E7;
+    --bg:#FFECD6;
+    --white:#fff;
+}
+
+*{  
+    margin: 0; padding: 0;
+    box-sizing: border-box;
+    outline: none; border: none;
+    text-decoration: none;
+    text-transform: capitalize;
+    transition: .2s linear;
+}
+
+html{
+    font-size: 62.5%;
+    overflow-x: hidden;
+    scroll-padding-top: 9rem;
+    scroll-behavior: smooth;
+}
+html::-webkit-scrollbar{
+    width: .8rem;
+}
+html::-webkit-scrollbar-track{
+    background: #fff;
+    border-radius: 5rem;
+}
+section{
+    padding: 2rem 7%;
+}
+
+.header{  
+    display: flex;
+    align-items: center;
+    position:absolute;
+    justify-content: space-between;
+    z-index: 1000;  
+}
+.header img {
+    display: auto;
+    margin: 2rem;
+
+}.header .element{
+    padding-right: 2rem;
+    position:relative;
+    display:flex;
+    align-items: center;
+    position: absolute;
+    justify-content: space-between;
+    left:90rem;
+}
+.header .title{
+    font-family: "Montserrat", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    color: #fff;
+    font-size: 3rem;
+    padding-left: 10rem;
+}
+.header .search{
+    padding-left: 3rem;
+}
+.header .search input{
+    color:var(--white);
+    border-radius: 1rem;
+    border: .1rem solid;
+    background-color: transparent;
+    background-color: none;
+    text-decoration: none;
+}
+.home .navbar {
+    font-family: "Montserrat", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    position:absolute;
+    display: grid;
+    left: 5rem;
+    gap: 1.5rem;
+ }
+.home .navbar a{
+    text-align: left;
+    margin-bottom: 2rem;
+    margin-left: 2rem;
+    background-color: none;
+    text-decoration: none;
+    display: block;
+    justify-content: space-between;
+    font-size: 2rem;
+    color:var(--bg);
+}
+.home .navbar a:hover{
+    border-bottom: .1rem solid var(--bg);
+    padding-bottom: .5rem;
+}
+.home{
+    min-height: 100vh;
+    display: flex;
+    background: url(/Image/Background.jpeg);
+    align-items: center;
+    background-size: cover;
+    background-position: center;
+}
+ .content h3{
+    color: var(--bg);
+    position: absolute;
+    font-family: "Playfair Display", serif;
+    font-weight: 400;
+    font-style: italic;
+    font-size: 6rem;
+    text-align: right;
+    right: 15rem;
+    bottom: 25rem;
+}
+.bottom-text{
+    color: var(--bg);
+    font-family: "Oswald";
+    font-size: 1.3rem;
+    text-align: right;
+    position: absolute;
+    bottom: 3rem;
+    right: 15rem;
+}
+.character {
+    min-height: 100vh;
+    display: flex;
+    background-image: rgb(53,89,224) no-repeat ;
+    background-image: linear-gradient(90deg, rgba(53,89,224,1) 0%, rgba(29,48,122,1) 100%);
+    background-size: cover;
+    background-position: center;
+}
+.character .navbar {
+    font-family: "Montserrat", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    position:absolute;
+    display: grid;
+    left: 5rem;
+    gap: 1.5rem;
+    padding-top: 23rem;
+ }
+.character .navbar a{
+    text-align: left;
+    margin-bottom: 2rem;
+    margin-left: 2rem;
+    background-color: none;
+    text-decoration: none;
+    display: block;
+    justify-content: space-between;
+    font-size: 2rem;
+    color:var(--bg);
+}
+.line{
+    border-right: .1rem solid;
+    color: #fff;
+    padding-left:15rem ;
+}
+.character .navbar a:hover{
+    border-bottom: .1rem solid var(--bg);
+    padding-bottom: .5rem;
+}
+.character .wawan{
+    width: 2rem;
+    position: absolute;
+    bottom: 0.8rem;
+    left: 1.6rem;
+    font-size: 1.8rem; 
+}
+
+.news{
+    min-height: 100vh;
+    display: flex;
+    background-image: rgb(53,89,224) no-repeat ;
+    background-image: linear-gradient(90deg, rgba(53,89,224,1) 0%, rgba(29,48,122,1) 100%);
+    background-size: cover;
+    background-position: center;
+}
+.news .navbar{
+    font-family: "Montserrat", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    position:absolute;
+    display: grid;
+    left: 5rem;
+    gap: 1.5rem;
+    padding-top: 23rem;
+}
+.news .navbar a{
+    text-align: left;
+    margin-bottom: 2rem;
+    margin-left: 2rem;
+    background-color: none;
+    text-decoration: none;
+    display: block;
+    justify-content: space-between;
+    font-size: 2rem;
+    color:var(--bg);
+}
+.news .navbar a:hover{
+    border-bottom: .1rem solid var(--bg);
+    padding-bottom: .5rem;
+
+}
+.about {
+    min-height: 100vh;
+    display: flex;
+    background-image: rgb(53,89,224) no-repeat ;
+    background-image: linear-gradient(90deg, rgba(53,89,224,1) 0%, rgba(29,48,122,1) 100%);
+    background-size: cover;
+    background-position: center;
+}
+.about .navbar{
+    font-family: "Montserrat", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    position:absolute;
+    display: grid;
+    left: 5rem;
+    gap: 1.5rem;
+    padding-top: 23rem;
+}
+
+.about .navbar a{
+    text-align: left;
+    margin-bottom: 2rem;
+    margin-left: 2rem;
+    background-color: none;
+    text-decoration: none;
+    display: block;
+    justify-content: space-between;
+    font-size: 2rem;
+    color:var(--bg);
+}
+.footer{
+    display: auto;
+    background:var(--main-color);
+    padding-top: 15px;
+    grid-template-columns: repeat(auto-fit, minmax(240px, auto));
+
+}
+.footer .box-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(23rem, 1fr));
+    gap: 1.5rem;
+}
+
+.footer .box-container .box h3 {
+    font-size: 2.5rem;
+    padding: 1rem 0;
+    color: #fff;
+}
+
+.footer .box-container .box a {
+    display: block;
+    font-size: 1.5rem;
+    padding: 1rem 0;
+    color: #fff;
+}
+
+.footer .box-container .box a i {
+    padding-right: .5rem;
+}
+
+.footer .box-container .box a:hover i {
+    color:var(--main-color);
+    border-bottom: .1rem solid var(--main-color);
+    padding-bottom: .5rem;
+}
+
+.footer .credit {
+    text-align: center;
+    font-size: 1rem;
+    padding: 2rem 1rem;
+    margin-top: 1rem;
+    color: #fff;
+}
+
+/* Seputar elemen */
+.container-rectangle{
+    display: flex;
+    flex-direction: column;
+    padding: 10rem 0 0 3rem;
+    width: 100%;
+    gap: 3rem;
+    font-family: "Oswald";  
+}
+
+.character .rectangle{
+    width: 100%;
+    position: relative;
+    background: var(--navy);
+    display: flex;
+    align-items: center;
+    border-radius: 3rem;
+    gap: 3rem;
+    padding: 3rem 0 3rem 0;
+}
+
+.character .rectangle img{
+    padding: 3rem;
+    z-index: 2;
+}
+
+.character .rectangle .circle{
+    filter: blur(8px);
+    border: 3px solid black;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    left: 0;
+    width: 10rem;
+    height: 10rem;
+    background: var(--main-color);
+    border-radius: 50%;
+    z-index: 1;
+}
+
+/* Card */
+.rectangle-card {
+    padding: .5rem 0rem .5rem 0rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: var(--main-color);
+    font-size: 1.8rem;
+    text-align: center;
+}
+.rectangle-card img{
+    height: 15 rem;
+}
+
+.rectangle-card p {
+    color: white;
+}
